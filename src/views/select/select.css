@@ -1,0 +1,45 @@
+.select-view {
+    background-color: #bbb4b4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-content: center;
+    align-items: center;  
+}
+
+.cat-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.play-button {
+    font-family: 'Alegrya';
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 20vh;
+    border-radius: 20px;
+    background-color: #5271FF;
+    color:black;
+    height: 15vw;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.home-button {
+    width: 50px;
+    height: 50px;
+    background: url(../../img/home-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

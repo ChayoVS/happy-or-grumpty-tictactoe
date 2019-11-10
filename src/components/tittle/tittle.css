@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Alegrya';
+    src: url(../../fonts/alegreya-sans.black.ttf);
+}
+.tittleAll {
+    font-family: 'Alegrya';
+    color: black;
+    padding: 1rem;
+    font-size: xx-large;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}

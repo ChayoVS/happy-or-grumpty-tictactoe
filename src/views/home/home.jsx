@@ -10,11 +10,9 @@ class Home extends Component {
       <div className="home-view">
         <Logo/>
         <nav>
-          <Link to="/select" className="homeButtons">
+          <Link to="/select" className="start-button">
             START
           </Link>
-          <Link to="/">
-            </Link>
         </nav>
       </div>
     );

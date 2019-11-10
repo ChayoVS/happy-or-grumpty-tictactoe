@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
-import './happy.css';
+import './grumpty.css';
 
-class Happy extends Component {
+class Grumpty extends Component {
     render () {
         const styles = {
             width: this.props.width,
             height: this.props.height
         }
         return (
-            <input type="button" className="icon-button2" style={styles}></input>
+            <input type="button" className="icon-button" style={styles}></input>
         )
     }
 }
 
-export default Happy;
+export default Grumpty;

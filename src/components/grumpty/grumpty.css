@@ -1,0 +1,7 @@
+.icon-button {
+    background: url(../../img/grumpy-cat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #002ae4;
+    border-color:transparent;
+}
