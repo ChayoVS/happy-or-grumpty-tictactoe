@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/happy-or-grumpty-tictactoe/static/css/main.b100e6da.chunk.css",
-    "main.js": "/happy-or-grumpty-tictactoe/static/js/main.bf114270.chunk.js",
-    "main.js.map": "/happy-or-grumpty-tictactoe/static/js/main.bf114270.chunk.js.map",
+    "main.css": "/happy-or-grumpty-tictactoe/static/css/main.aec95c44.chunk.css",
+    "main.js": "/happy-or-grumpty-tictactoe/static/js/main.85cd7f9e.chunk.js",
+    "main.js.map": "/happy-or-grumpty-tictactoe/static/js/main.85cd7f9e.chunk.js.map",
     "runtime-main.js": "/happy-or-grumpty-tictactoe/static/js/runtime-main.f8052a83.js",
     "runtime-main.js.map": "/happy-or-grumpty-tictactoe/static/js/runtime-main.f8052a83.js.map",
-    "static/js/2.47696e14.chunk.js": "/happy-or-grumpty-tictactoe/static/js/2.47696e14.chunk.js",
-    "static/js/2.47696e14.chunk.js.map": "/happy-or-grumpty-tictactoe/static/js/2.47696e14.chunk.js.map",
+    "static/js/2.4f5760d0.chunk.js": "/happy-or-grumpty-tictactoe/static/js/2.4f5760d0.chunk.js",
+    "static/js/2.4f5760d0.chunk.js.map": "/happy-or-grumpty-tictactoe/static/js/2.4f5760d0.chunk.js.map",
     "index.html": "/happy-or-grumpty-tictactoe/index.html",
-    "precache-manifest.64b3849c3a6bc10314dcc604a2ec1ec8.js": "/happy-or-grumpty-tictactoe/precache-manifest.64b3849c3a6bc10314dcc604a2ec1ec8.js",
+    "precache-manifest.3389c33c5187f70c87409a76adcc4d28.js": "/happy-or-grumpty-tictactoe/precache-manifest.3389c33c5187f70c87409a76adcc4d28.js",
     "service-worker.js": "/happy-or-grumpty-tictactoe/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/happy-or-grumpty-tictactoe/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/happy-or-grumpty-tictactoe/static/media/logo.25bf045c.svg"
+    "static/css/main.aec95c44.chunk.css.map": "/happy-or-grumpty-tictactoe/static/css/main.aec95c44.chunk.css.map",
+    "static/media/tittle.css": "/happy-or-grumpty-tictactoe/static/media/alegreya-sans.black.ed7cfd35.ttf",
+    "static/media/grumpty.css": "/happy-or-grumpty-tictactoe/static/media/grumpy-cat.9519166c.png",
+    "static/media/game.css": "/happy-or-grumpty-tictactoe/static/media/retry-icon.bd35b46e.jpg",
+    "static/media/logo.png": "/happy-or-grumpty-tictactoe/static/media/logo.a23d6e43.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f8052a83.js",
-    "static/js/2.47696e14.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.bf114270.chunk.js"
+    "static/js/2.4f5760d0.chunk.js",
+    "static/css/main.aec95c44.chunk.css",
+    "static/js/main.85cd7f9e.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/happy-or-grumpty-tictactoe/precache-manifest.64b3849c3a6bc10314dcc604a2ec1ec8.js"
+  "/happy-or-grumpty-tictactoe/precache-manifest.3389c33c5187f70c87409a76adcc4d28.js"
 );
 
 self.addEventListener('message', (event) => {
