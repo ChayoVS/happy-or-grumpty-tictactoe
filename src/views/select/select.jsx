@@ -14,18 +14,14 @@ class Select extends Component {
 		return (
 			<div className="select-view">
 				<Tittle content="PLAY FIRST:" />
-				<br />
-				<br />
-				<article className="cat-icons">
 					<figure id="happy-icon" className="figure1" onClick={() => this.handleClick()}>
-						<Happy width="125px" height="125px" />
+						<Happy width="100px" height="100px" />
 					</figure>
+				<Tittle content="PLAY SECOND:" />
 					<figure id="grumpty-icon" className="figure1" onClick={this.handleClick} >
-						<Grumpty width="125px" height="125px" />
+						<Grumpty width="100px" height="100px" />
 					</figure>
-				</article>
-                <br />
-				<br />
+					<br/>
 				<nav>
 					<Link to="/play" className="play-button">
 						PLAY!

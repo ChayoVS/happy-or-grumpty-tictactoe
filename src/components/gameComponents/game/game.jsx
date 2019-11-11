@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Square from '../square/square'
 import {WinningLogic} from '../board/board'
+import Happy from '../../happy/happy'
+import Grumpty from '../../grumpty/grumpty'
 import './game.css'
 
 
@@ -10,17 +12,28 @@ function Game() {
   
     const winningInfo = WinningLogic(squares);
     const winner = winningInfo.winner;
+
+    let happyCat = <Happy width= "80px" height = "80px"/>;
+    let grumptyCat = <Grumpty width= "80px" height = "80px"/>;
+
+    // let happyCatString = 'Happy Cat';
+    // let grumptyCatString = 'Grumpty Cat';
+
+    // happyCat = happyCatString;
+    // grumptyCat = grumptyCatString; 
   
     const winnerHighlight = winningInfo.line;
     let status;
     if (winner) {
-      status = "Hurray the winner is " + winner;
+      status = "WIN! " + winner;
     } else if (winningInfo.isDraw) {
-      status = "It's a Draw";
+      status = "DRAW";
     } else {
-      status = "Next Player is " + (isXNext ? "X" : "O");
-    }
-  
+      status = "Next Player is " + (isXNext ? 'X' : 'O');
+    } 
+    // happyCat = <Happy width= "80px" height = "80px"/>;
+    // grumptyCat = <Grumpty width= "80px" height = "80px"/>;
+
     function renderSquare(i) {
       return (
         <Square
@@ -29,7 +42,7 @@ function Game() {
                   return;
               }
             const nextSquare = squares.slice();
-            nextSquare[i] = isXNext ? "X" : "O";
+            nextSquare[i] = isXNext ?  'X' : 'O';
             setXNext(!isXNext);
             setSquare(nextSquare);
           }}
@@ -39,8 +52,12 @@ function Game() {
       );
     }
     return (
-      <div>
+      <div className= "all-board">
+          <br/>
+          <br/>
         <div className="status">{status}</div>
+        <br/>
+        <br/>
         <div className="board-row">
           {renderSquare(0)}
           {renderSquare(1)}
@@ -58,6 +75,12 @@ function Game() {
           {renderSquare(7)}
           {renderSquare(8)}
         </div>
+        <br/>
+        <figure className= "exit-icons">
+        <button className= "home-button"></button>
+        <button className= "repeat-button"></button>
+        </figure>
+        
       </div>
     );
 }
