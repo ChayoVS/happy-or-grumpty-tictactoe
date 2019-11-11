@@ -5,3 +5,8 @@
     background-color: #002ae4;
     border-color:transparent;
 }
+
+input.icon-button:hover {
+    border-width: 5px;
+    border-color:orange;
+}
