@@ -8,7 +8,10 @@ class Happy extends Component {
             height: this.props.height
         }
         return (
-            <input type="button" className="icon-button2" style={styles}></input>
+            <input type="button" 
+            className="icon-button2" 
+            style={styles}>
+            </input>
         )
     }
 }
