@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1256ec32b1d347d80d69225b3836cfb",
+    "revision": "02a014928adac03e048cafce78286f9d",
     "url": "/happy-or-grumpty-tictactoe/index.html"
   },
   {
-    "revision": "2c4d2ba4f930ec9b4e3b",
+    "revision": "13a8ca22df6a3c4c693e",
     "url": "/happy-or-grumpty-tictactoe/static/css/main.aec95c44.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/happy-or-grumpty-tictactoe/static/js/2.4f5760d0.chunk.js"
   },
   {
-    "revision": "2c4d2ba4f930ec9b4e3b",
-    "url": "/happy-or-grumpty-tictactoe/static/js/main.85cd7f9e.chunk.js"
+    "revision": "13a8ca22df6a3c4c693e",
+    "url": "/happy-or-grumpty-tictactoe/static/js/main.5709c5f3.chunk.js"
   },
   {
     "revision": "d2c8329c2eb82584f4c4",

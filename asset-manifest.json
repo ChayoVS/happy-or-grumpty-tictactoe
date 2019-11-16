@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/happy-or-grumpty-tictactoe/static/css/main.aec95c44.chunk.css",
-    "main.js": "/happy-or-grumpty-tictactoe/static/js/main.85cd7f9e.chunk.js",
-    "main.js.map": "/happy-or-grumpty-tictactoe/static/js/main.85cd7f9e.chunk.js.map",
+    "main.js": "/happy-or-grumpty-tictactoe/static/js/main.5709c5f3.chunk.js",
+    "main.js.map": "/happy-or-grumpty-tictactoe/static/js/main.5709c5f3.chunk.js.map",
     "runtime-main.js": "/happy-or-grumpty-tictactoe/static/js/runtime-main.f8052a83.js",
     "runtime-main.js.map": "/happy-or-grumpty-tictactoe/static/js/runtime-main.f8052a83.js.map",
     "static/js/2.4f5760d0.chunk.js": "/happy-or-grumpty-tictactoe/static/js/2.4f5760d0.chunk.js",
     "static/js/2.4f5760d0.chunk.js.map": "/happy-or-grumpty-tictactoe/static/js/2.4f5760d0.chunk.js.map",
     "index.html": "/happy-or-grumpty-tictactoe/index.html",
-    "precache-manifest.3389c33c5187f70c87409a76adcc4d28.js": "/happy-or-grumpty-tictactoe/precache-manifest.3389c33c5187f70c87409a76adcc4d28.js",
+    "precache-manifest.855aa708129eb1e7ca16dae411eb8aa2.js": "/happy-or-grumpty-tictactoe/precache-manifest.855aa708129eb1e7ca16dae411eb8aa2.js",
     "service-worker.js": "/happy-or-grumpty-tictactoe/service-worker.js",
     "static/css/main.aec95c44.chunk.css.map": "/happy-or-grumpty-tictactoe/static/css/main.aec95c44.chunk.css.map",
     "static/media/tittle.css": "/happy-or-grumpty-tictactoe/static/media/alegreya-sans.black.ed7cfd35.ttf",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.f8052a83.js",
     "static/js/2.4f5760d0.chunk.js",
     "static/css/main.aec95c44.chunk.css",
-    "static/js/main.85cd7f9e.chunk.js"
+    "static/js/main.5709c5f3.chunk.js"
   ]
 }
