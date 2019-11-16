@@ -16,23 +16,16 @@ function Game() {
     let happyCat = <Happy width= "80px" height = "80px"/>;
     let grumptyCat = <Grumpty width= "80px" height = "80px"/>;
 
-    // let happyCatString = 'Happy Cat';
-    // let grumptyCatString = 'Grumpty Cat';
-
-    // happyCat = happyCatString;
-    // grumptyCat = grumptyCatString; 
   
     const winnerHighlight = winningInfo.line;
     let status;
     if (winner) {
-      status = "WIN! " + winner;
+      status ="WIN! " + winner;
     } else if (winningInfo.isDraw) {
       status = "DRAW";
     } else {
-      status = "Next Player is " + (isXNext ? 'X' : 'O');
+    status = <span>Next Player is: {isXNext ? <Happy width= "40px" height = "40px"/> : <Grumpty width= "40px" height = "40px"/>}</span>
     } 
-    // happyCat = <Happy width= "80px" height = "80px"/>;
-    // grumptyCat = <Grumpty width= "80px" height = "80px"/>;
 
     function renderSquare(i) {
       return (
@@ -77,8 +70,6 @@ function Game() {
         </div>
         <br/>
         <figure className= "exit-icons">
-        <button className= "home-button"></button>
-        <button className= "repeat-button"></button>
         </figure>
         
       </div>

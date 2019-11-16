@@ -9,7 +9,7 @@ class App extends Component {
     
     render() {
                return (
-            <Router basename={window.location.pathname || ''} >
+            <Router basename={window.location.pathname} >
                 <Switch >
                     <Route exact path="/" render={props => <Home/>}></Route>
                     <Route exact path="/select" render={props => <Select/>}></Route>
